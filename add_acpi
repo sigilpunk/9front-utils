@@ -1,3 +1,6 @@
 #!/bin/rc
 9fs 9fat
-echo "\n*acpi=1\n" >> /n/9fat/9plan.ini
+echo '
+  *acpi=1
+
+' >> /n/9fat/9plan.ini
